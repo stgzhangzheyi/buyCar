@@ -1,0 +1,923 @@
+{
+  "love":[
+    {"id":0,"name":"杀戮","miao":"杀人放火","img":"static/images/item1.jpg"},
+    {"id":1,"name":"天灾","miao":"天灾人祸","img":"static/images/item2.jpg"},
+    {"id":2,"name":"地煞","miao":"恶魔重生","img":"static/images/item3.jpg"},
+    {"id":3,"name":"鬼影","miao":"黑白无常","img":"static/images/item4.jpg"},
+    {"id":4,"name":"忍者","miao":"螺旋小丸","img":"static/images/item5.jpg"},
+    {"id":5,"name":"梦游","miao":"杀生求佛","img":"static/images/item6.jpg"},
+    {"id":6,"name":"暗影","miao":"暗系之术","img":"static/images/item7.jpg"},
+    {"id":7,"name":"电形","miao":"电光火石","img":"static/images/item8.jpg"},
+    {"id":8,"name":"风驰","miao":"风之法术","img":"static/images/item9.jpg"},
+    {"id":9,"name":"生存","miao":"物竞天择","img":"static/images/item10.jpg"}
+  ],
+  "shop":[
+  	{"id":0,"name":"今日推荐","path":{"name":"onepage"},"isActive": true},
+  	{"id":1,"name":"最后疯抢","path":{"name":"lastpage"},"isActive":false},
+  	{"id":2,"name":"时尚","path":{"name":"todaypage"},"isActive":false},
+  	{"id":3,"name":"美妆","path":{"name":"todaypage"},"isActive":false},
+  	{"id":4,"name":"母婴","path":{"name":"todaypage"},"isActive":false},
+  	{"id":5,"name":"家电","path":{"name":"todaypage"},"isActive":false},
+  	{"id":6,"name":"家居","path":{"name":"todaypage"},"isActive":false},
+  	{"id":7,"name":"国际","path":{"name":"todaypage"},"isActive":false},
+  	{"id":8,"name":"生活","path":{"name":"todaypage"},"isActive":false}
+  ],
+  "banner":[
+    {"id":0,"img":"static/images/b1.jpg"},
+    {"id":1,"img":"static/images/b2.jpg"},
+    {"id":2,"img":"static/images/b3.jpg"},
+    {"id":3,"img":"static/images/b4.jpg"},
+    {"id":4,"img":"static/images/b5.jpg"},
+    {"id":5,"img":"static/images/b6.jpg"}
+  ],
+  "images":[
+    {"id":0,"img":"static/images/e1.jpg"},
+    {"id":1,"img":"static/images/e2.jpg"},
+    {"id":2,"img":"static/images/e3.jpg"}
+  ],
+  "nextBye":[
+     {"id":0,"img":"static/images/next1.webp"},
+    {"id":1,"img":"static/images/next2.webp"},
+    {"id":2,"img":"static/images/next3.webp"},
+    {"id":3,"img":"static/images/next4.webp"},
+    {"id":4,"img":"static/images/next5.webp"}
+  ],
+  "products": [
+      {
+        "id": "1",
+        "img": "static/images/list1.jpg",
+        "time": "剩18时",
+        "icon":"",
+        "name":"",
+        "smallName":"",
+        "mainDescribe": "Nike耐克品牌钜献",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage1.jpg",
+        "name": "￥180",
+        "smallName":"￥800",
+        "value":1,
+        "text":"JUZUI-玖姿秋冬新款经典基础款高领打底衫女纯色针织套头毛衫",
+        "zhe":"2.3折",
+        "count":7,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/able1.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/able2.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/able3.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/able4.jpg"}
+        ]
+        },
+        {
+          "id": "2",
+        "sms":"static/images/onePage2.jpg",
+        "name": "￥1567",
+        "smallName":"￥3590",
+        "value":1,
+        "isCheck": false,
+        "text":"JUZUI/玖姿冬装新款简约格纹英伦风双排扣中长款羊毛女式大衣",
+        "zhe":"4.4折",
+        "count":8,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/able10.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/able11.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/able12.jpg"}
+        ]
+        },
+        {
+          "id": "3",
+        "sms":"static/images/onePage3.jpg",
+        "name": "￥180",
+        "smallName":"￥880",
+        "value":1,
+        "isCheck": false,
+        "text":"JUZUI-玖姿秋冬新款纯色基础款高领打底衫针织套头毛衫女",
+        "zhe":"2.3折",
+        "count":8,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/able7.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/able8.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/able9.jpg"}
+        ]
+        },
+        {
+          "id": "4",
+        "sms":"static/images/onePage4.jpg",
+        "name": "￥1600",
+        "smallName":"￥2880",
+        "value":1,
+        "text":"JUZUI/玖姿冬装新款简约双排扣中长款羊毛呢大衣",
+        "zhe":"5.6折",
+        "count":6,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/able5.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/able6.jpg"}
+        ]
+        },
+        {
+          "id": "5",
+        "sms":"static/images/onePage5.jpg",
+        "name": "￥2680",
+        "smallName":"￥749",
+        "value":1,
+        "text":"JUZUI/玖姿字母图案半高领长袖套头女式卫衣",
+        "zhe":"2.8折",
+        "count":12,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/able1.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/able2.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/able3.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/able4.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+        "id": "2",
+        "img": "static/images/list2.jpg",
+        "icon":"static/images/icon1.png",
+        "time": "剩2天",
+        "name": "2.2折起",
+        "smallName":"全场8折",
+        "mainDescribe": "波司登BOSIDENG羽绒今日大牌狂欢专场",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage6.jpg",
+        "name": "￥206",
+        "smallName":"￥2209",
+        "text":"冬季新款男款加厚连帽毛呢大衣",
+        "zhe":"0.9折",
+        "count":12,
+        "isCheck": false,
+        "value":1,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/42.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/43.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/44.jpg"}
+        ]
+        },
+        {
+          "id": "2",
+        "sms":"static/images/pageOne7.jpg",
+        "name": "￥71",
+        "smallName":"￥520",
+        "text":"秋季新款男款潮流时尚休闲裤",
+        "zhe":"1.3折",
+        "count":12,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/45.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/46.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/48.jpg"}
+        ]
+        },
+        {
+          "id": "3",
+        "sms":"static/images/onePage8.jpg",
+        "name": "￥179",
+        "smallName":"￥1600",
+        "text":"冬季新款男款时尚长款潮流风衣",
+        "zhe":"1.1折",
+        "count":12,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/49.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/50.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+        "id": "3",
+        "img": "static/images/list3.jpg",
+        "icon":"static/images/icon1.png",
+        "time": "剩4天",
+        "name": "1折起",
+        "smallName":"全场8折",
+        "mainDescribe": "宝姿PORTS男女装混合专场—今日大牌",
+         "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage9.jpg",
+        "name": "￥259",
+        "smallName":"￥1609",
+        "text":"冬季新款男款时尚休闲夹棉毛呢长款大衣",
+        "zhe":"1.5折",
+         "count":12,
+         "isCheck": false,
+         "value":1,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+        "id": "4",
+        "img": "static/images/list4.jpg",
+        "icon":"static/images/icon1.png",
+        "time": "剩9天",
+        "name": "3.1折起",
+        "smallName":"全场8.5折",
+        "mainDescribe": "MO&Co.今日大牌女装专场",
+         "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "smallName":"￥1609",
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "value":1,
+        "isCheck": false,
+        "count":12,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+        "id": "5",
+        "img": "static/images/list5.jpg",
+        "icon":"static/images/icon1.png",
+        "time": "剩2天",
+        "name": "1.8折起",
+        "smallName":"全场8折",
+        "mainDescribe": "百丽BeLLE女鞋专场",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "value":1,
+        "smallName":"￥1609",
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "isCheck": false,
+        "count":12,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+        "id": "6",
+        "img": "static/images/list6.jpg",
+        "icon":"static/images/icon1.png",
+        "time": "剩2天",
+        "name": "2.3折起",
+        "smallName":"全场折上7折",
+        "mainDescribe": "24h感恩特惠-贝贝怡Bornbay婴幼童服饰专场",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "value":1,
+        "smallName":"￥1609",
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "count":12,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+        "id": "7",
+        "img": "static/images/list7.jpg",
+        "time": "剩2天",
+        "name": "3.7折起",
+        "icon":"",
+        "smallName":"",
+        "mainDescribe": "华为手机专场",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "value":1,
+        "smallName":"￥1609",
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "count":12,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+        "id": "8",
+       "img": "static/images/list8.jpg",
+        "time": "剩9天",
+        "name": "2.2折起",
+        "icon":"",
+        "smallName":"",
+        "mainDescribe": "森马服饰专场-爆款补货 狂欢继续",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "smallName":"￥1609",
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "value":1,
+        "count":12,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+        "id": "9",
+       "img": "static/images/list9.jpg",
+        "time": "剩40天",
+        "name": "3折起",
+        "icon":"",
+        "smallName":"",
+        "mainDescribe": "ARMANI OUTLET官方店",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "smallName":"￥1609",
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "value":1,
+        "count":12,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+        "id": "10",
+       "img": "static/images/list10.jpg",
+        "time": "剩1天",
+        "name": "1折起",
+        "icon":"",
+        "smallName":"",
+        "mainDescribe": "音儿YINER女装专场",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "smallName":"￥1609",
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "count":12,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+      "id": "11",
+       "img": "static/images/list11.jpg",
+        "time": "剩2天",
+        "name": "0.7折起",
+        "icon":"",
+        "smallName":"",
+        "mainDescribe": "恩裳INSUN女装专场",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "smallName":"￥1609",
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "value":1,
+        "isCheck": false,
+        "count":12,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+      "id": "12",
+       "img": "static/images/list12.jpg",
+        "time": "剩2天",
+        "name": "1折起",
+        "icon":"",
+        "smallName":"",
+        "mainDescribe": "4折封顶 限时直降-森林公主秋冬女鞋专场",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "smallName":"￥1609",
+        "value":1,
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "count":12,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+      "id": "13",
+       "img": "static/images/list13.jpg",
+        "time": "剩2天",
+        "name": "1.2折起",
+        "icon":"",
+        "smallName":"",
+        "mainDescribe": "思加图STACCATO女鞋专场",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "smallName":"￥1609",
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "value":1,
+        "count":12,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+      "id": "14",
+       "img": "static/images/list14.jpg",
+        "time": "剩2天",
+        "name": "0.8折起",
+        "icon":"",
+        "smallName":"",
+        "mainDescribe": "富铤FORTEI男装专场",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "value":1,
+        "smallName":"￥1609",
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "count":12,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+      "id": "15",
+       "img": "static/images/list15.jpg",
+        "time": "剩16时",
+        "name": "",
+        "icon":"",
+        "smallName":"",
+        "mainDescribe": "Nike品牌钜献-运动休闲鞋",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "smallName":"￥1609",
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "value":1,
+        "count":12,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+      "id": "16",
+       "img": "static/images/list16.jpg",
+        "time": "剩22时",
+        "name": "8.7折起",
+        "icon":"",
+        "smallName":"",
+        "mainDescribe": "周生生珠宝专场",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "smallName":"￥1609",
+        "value":1,
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "count":12,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+      "id": "17",
+       "img": "static/images/list17.jpg",
+        "time": "剩1天",
+        "name": "3.7折起",
+        "icon":"",
+        "smallName":"",
+        "mainDescribe": "玉兰油Olay护肤品专场",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "smallName":"￥1609",
+        "value":1,
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "count":12,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      },
+      {
+      "id": "18",
+       "img": "static/images/list18.jpg",
+        "time": "剩1天",
+        "name": "4.6折起",
+        "icon":"",
+        "smallName":"",
+        "mainDescribe": "雅诗兰黛EsteeLauder化妆品专场",
+        "sm":[
+        {
+          "id": "1",
+        "sms":"static/images/onePage10.jpg",
+        "name": "￥259",
+        "smallName":"￥1609",
+        "text":"冬季新款男款修身时尚双层领羊毛呢长款大衣",
+        "zhe":"1.5折",
+        "value":1,
+        "isCheck": false,
+        "count":12,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/41.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/47.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/51.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/52.jpg"}
+        ]
+        }
+       ]
+      }
+
+    ],
+  "small":[
+       {
+      "id": "s1",
+      "day":1,
+       "img": "static/images/small1.png",
+       "sm":[
+        {
+        "id": "n1",
+        "sms":"static/images/sm1.jpg",
+        "name": "￥99",
+        "smallName":"￥2380",
+        "text":"简约风条纹撞色修身羊毛衫",
+        "zhe":"7折",
+        "value":1,
+        "isCheck": false,
+        "count":6,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can1.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can2.jpg"}
+        ]
+        },
+        {
+        "id": "n2",
+        "sms":"static/images/sm2.jpg",
+        "name": "￥109",
+        "smallName":"￥2980",
+        "text":"经典格纹羊毛含蚕丝渐变撞色羊毛衫",
+        "zhe":"8折",
+        "value":1,
+        "count":6,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can3.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can4.jpg"}
+        ]
+        },
+        {
+          "id": "n3",
+        "sms":"static/images/sm3.jpg",
+        "name": "￥109",
+        "smallName":"￥2980",
+        "text":"羊毛含蚕丝个性撞色格纹羊毛衫",
+        "zhe":"6折",
+        "count":7,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can3.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can4.jpg"}
+        ]
+        }
+       ],
+        "mainDescribe": "到手价3折封顶 | 博斯绅威BOSSSUNWEN-最后疯抢专场"
+    },
+     {
+      "id": "s2",
+      "day":5,
+       "img": "static/images/small2.png",
+       "sm":[
+        {
+          "id": "n1",
+        "sms":"static/images/sm4.jpg",
+        "name": "￥94",
+        "smallName":"￥729",
+        "zhe":"9折",
+        "text":"2018冬季新款韩版女装春秋冬装通勤简约时尚百搭铅笔裤弹力加绒加厚修身显瘦中腰女款牛仔裤女",
+        "count":10,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can5.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can6.jpg"}
+        ]
+        },
+        {
+          "id": "n2",
+        "sms":"static/images/sm5.jpg",
+        "name": "￥99",
+        "smallName":"￥699",
+        "zhe":"7折",
+        "text":"2018冬季新款通勤牛仔裤春秋冬装简约通勤小脚裤加厚抓毛弹力女款牛仔裤女",
+        "count":7,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can3.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can4.jpg"}
+        ]
+        },
+        {
+          "id": "n3",
+        "sms":"static/images/sm6.jpg",
+        "name": "￥89",
+        "smallName":"￥699",
+        "zhe":"4折",
+        "text":"2018秋季新款韩版女装春夏秋冬四季适用通勤简约时尚百搭九分阔腿裤脚口开衩彩条格子中腰修身显瘦女款休闲裤女",
+        "count":7,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can3.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can4.jpg"}
+        ]
+        }
+       ],
+        "mainDescribe": "到手价3折封顶 | 德玛纳-最后疯抢专场"
+    },
+    {
+      "id": "s3",
+      "day":4,
+       "img": "static/images/small3.png",
+       "sm":[
+        {
+          "id": "n1",
+        "sms":"static/images/sm7.jpg",
+        "name": "￥11",
+        "smallName":"￥39",
+        "zhe":"1折",
+        "text":"巴拉巴拉秋季新款女童袜子 甜美风 针织猫咪 自然呵护",
+        "count":8,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/goods1.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/goods2.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/goods3.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/goods4.jpg"}
+        ]
+        },
+        {
+          "id": "n2",
+        "sms":"static/images/sm8.jpg",
+        "name": "￥50",
+        "smallName":"￥169",
+        "zhe":"8折",
+        "text":"巴拉巴拉儿童空气棉内衣套装冬女童保暖内衣中大童秋衣秋裤棉",
+        "count":8,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can11.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can12.jpg"}
+        ]
+        },
+        {
+          "id": "n3",
+        "sms":"static/images/sm9.jpg",
+        "name": "￥209",
+        "smallName":"￥698",
+        "zhe":"7.5折",
+        "text":"巴拉巴拉童装儿童羽绒服中大童2018新款冬季男童外套迷彩连帽加厚",
+        "count":8,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can7.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can8.jpg"},
+           {"name":"swiperSlide51","imgUrl":"static/images/can9.jpg"},
+            {"name":"swiperSlide1111115","imgUrl":"static/images/can10.jpg"}
+        ]
+        }
+       ],
+        "mainDescribe": "到手价3折封顶 | 巴拉巴拉balabala-最后疯抢专场"
+    },
+    {
+      "id": "s4",
+      "day":7,
+       "img": "static/images/one1.jpg",
+       "sm":[
+        {
+        "id": "n1",
+        "sms":"static/images/sm10.jpg",
+        "name": "￥189",
+        "smallName":"￥989",
+        "zhe":"7折",
+        "text":"星期六ST&SAT 2018秋新品优雅皮质方扣浅口平底鞋",
+        "count":8,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can13.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can14.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/can15.jpg"}
+        ]
+        },
+        {
+          "id": "n2",
+        "sms":"static/images/small11.jpg",
+        "name": "￥179",
+        "smallName":"$989",
+        "zhe":"4.5折",
+        "text":"蝴蝶结圆头方跟优雅深口单鞋",
+        "count":8,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can13.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can14.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/can15.jpg"}
+        ]
+        },
+        {
+          "id": "n3",
+        "sms":"static/images/sm12.jpg",
+        "name": "￥179",
+        "smallName":"￥989",
+        "zhe":"9.9折",
+        "text":"专柜同款优雅尖头异形跟深口鞋",
+        "count":8,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can13.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can14.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/can15.jpg"}
+        ]
+        }
+       ],
+        "mainDescribe": "到手价3折封顶 | 星期六ST&SAT集团女鞋-最后疯抢专场"
+    },
+    {
+      "id": "s5",
+      "day":2,
+       "img": "static/images/one2.jpg",
+       "sm":[
+        {
+        "id": "n1",
+        "sms":"static/images/sm13.jpg",
+        "name": "￥69",
+        "smallName":"￥578",
+        "zhe":"3折",
+        "text":"2018秋冬新款女装上衣简约通勤修身显瘦高领套头气质百搭长袖纯色针织衫",
+         "count":5,
+         "isCheck": false,
+         "value":1,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can16.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can17.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/can19.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/can20.jpg"}
+        ]
+        },
+        {
+        "id": "n2",
+        "sms":"static/images/sm14.jpg",
+        "name": "￥69",
+        "smallName":"￥359",
+        "text":"气质显瘦鱼尾裙简约潮流纯色百搭款气质显瘦鱼尾裙中长款针织半身裙",
+        "count":2,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can21.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can22.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/can23.jpg"}
+        ]
+        },
+        {
+        "id": "n3",
+        "sms":"static/images/sm15.jpg",
+        "name": "￥79",
+        "smallName":"￥300",
+        "zhe":"8.8折",
+        "text":"2018冬季新款韩版修身女款针织上衣 潮流时尚长袖针织衫 别致纽扣半高领保暖打底衫",
+        "count":4,
+        "value":1,
+        "isCheck": false,
+        "arrItem":[
+          {"name":"swiperSlide5","imgUrl":"static/images/can24.jpg"},
+          {"name":"swiperSlide1","imgUrl":"static/images/can25.jpg"},
+          {"name":"swiperSlide51","imgUrl":"static/images/can26.jpg"},
+          {"name":"swiperSlide1111115","imgUrl":"static/images/can27.jpg"}
+        ]
+        }
+       ],
+        "mainDescribe": "到手价3折封顶 | HRFS女装-最后疯抢专场"
+    }
+  ]
+}

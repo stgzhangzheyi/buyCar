@@ -1,0 +1,50 @@
+import * as types from './mutaion-types'
+export default {
+	[types.SHOP_SELECT_DATA](state,value){
+		state.shopData=value
+	},
+	[types.BANNER_DATA](state,value){
+		state.bannerData=value
+	},
+	[types.SMALL_SHOP_DATA](state,value){
+		state.smallShopData=value
+	},
+	[types.IMAGE_ALL_DATA](state,value){
+		state.imagesAll=value
+	},
+	[types.PRODUCT_SHOP_DATA](state,value){
+		state.productsData=value
+	},
+	[types.SECOND_SHOP_DATA](state,value){
+		state.secondData=value
+	},
+	[types.SECOND_NEXT_BYE_DATA](state,value){
+		state.nextByeData=value
+	},
+	[types.ISSHOW_DATA](state,value){
+		state.isShow=value
+	},
+	[types.LOGIN_USER_DATA](state,value){
+		state.loginUserData=value
+	},
+	[types.DISABLE_SHOW](state,value){
+		state.buyCar.isDisable=value.vale
+		state.buyCar.carData=value.buyData
+	},
+	[types.USER_PASSWARD](state,value){
+		state.isChangeLogin=value
+	},
+	[types.ISWINDOW](state,value){
+		state.isWindow=value
+	},
+	[types.ISSEARCH](state,value){
+		state.isSearch=value
+	},
+	[types.ISHAPPY_DATA](state,value){
+		state.isHappy=value
+	},
+	[types.TOGOHOME](state,name){
+		state.names=name
+	}
+	
+}
